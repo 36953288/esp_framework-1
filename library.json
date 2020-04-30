@@ -1,0 +1,27 @@
+{
+    "name": "esp framework",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/SchumyHao/esp_framework.git"
+    },
+    "dependencies":
+    [
+      {
+        "name": "TaskScheduler",
+        "version": ">=3.1.4"
+      },
+      {
+        "name": "AutoConnect",
+        "version": ">=1.1.7"
+      }
+    ],
+    "frameworks": "arduino",
+    "platforms":
+    [
+      "espressif8266",
+      "espressif32"
+    ],
+    "version": "0.0.1",
+    "license": "MIT"
+  }
